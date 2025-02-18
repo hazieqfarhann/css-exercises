@@ -1,0 +1,9 @@
+/* this is external css where the css styles are done outside the html file */
+div {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    color: #ffffff;
+    background-color: red;
+}
