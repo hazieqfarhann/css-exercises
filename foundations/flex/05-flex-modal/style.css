@@ -23,6 +23,7 @@ body {
   display: flex;
   gap: 16px;
   padding: 16px;
+  flex-shrink: 0;
 }
 
 .icon {
@@ -36,6 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /* this keeps the icon from getting smashed by the text */
 }
 
 .close-button {
@@ -71,16 +73,6 @@ button.cancel {
   color: royalblue;
 }
 
-/* SOLUTION: */
-
-.modal {
-  
-}
-
-.icon {
-  /* this keeps the icon from getting smashed by the text */
-  flex-shrink: 0;
-}
 /* header container should be wrapped around the button element as well in order for flex style to work */
 .header {
   display: flex;
